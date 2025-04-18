@@ -1,4 +1,6 @@
-# Diagrama de Classes
+# Projeto Bootcamp Santander
+
+## Diagrama de Classes
 
 ``` mermaid
   
@@ -25,10 +27,10 @@ class Novidade {
 +String icon
 +String description
 }
-Usuario --> Conta
-Usuario --> Feature
-Usuario --> Cartao
-Usuario --> Novidade
+Usuario "-- Conta
+Usuario "-- Feature
+Usuario "-- Cartao
+Usuario "-- Novidade
 
 ```
  
