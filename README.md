@@ -27,10 +27,10 @@ class Novidade {
 +String icon
 +String description
 }
-Usuario *-- Conta
-Usuario *-- Feature
-Usuario *-- Cartao
-Usuario *-- Novidade
+Usuario "1" *-- "n" Conta
+Usuario "1" *-- "N" Feature
+Usuario "1" *-- "1" Cartao
+Usuario "1" *-- "N" Novidade
 
 ```
  
