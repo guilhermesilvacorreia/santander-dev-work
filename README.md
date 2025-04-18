@@ -1,9 +1,7 @@
- 
-```
 # Diagrama de Classes
 
-
-
+``` mermaid
+  
 
 classDiagram
 class Usuario {
@@ -31,5 +29,7 @@ Usuario --> Conta
 Usuario --> Feature
 Usuario --> Cartao
 Usuario --> Novidade
+
+```
  
   
